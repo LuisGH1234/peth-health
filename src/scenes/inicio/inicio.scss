@@ -45,7 +45,8 @@
     display: flex;
     padding: 3%;
     .carousel.slide {
-        height: 45vh !important;
+        height: 45vh;
+        max-height: 45vh;
     }
 
     .gallery-container {
@@ -55,6 +56,21 @@
 
     .summary-content {
         width: 50%;
+        max-height: 45vh;
+    }
+
+    @media (max-width: 686px) {
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+
+        .gallery-container, .summary-content {
+            width: 100%;
+        }
+
+        .summary-content {
+            margin-top: 2%;
+        }
     }
 }
 

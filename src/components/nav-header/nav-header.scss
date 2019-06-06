@@ -16,7 +16,7 @@ html {
 
 .navigation {
     position: fixed;
-    z-index: 3;
+    z-index: 16;
     width: 100%;
     
     .header {
@@ -48,6 +48,10 @@ html {
                     //     font-size: 3.5vw;
                     // }
                 }
+            }
+
+            @media (max-width: 541px) {
+                display: none;
             }
         }
     }

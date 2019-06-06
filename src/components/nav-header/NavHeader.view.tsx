@@ -17,7 +17,9 @@ class NavHeader extends Component<IProps> {
         return (
             <nav className="navigation">
                 <div className="header">
-                    <img src={logo} className="App-logo" alt="logo" />
+                    <div className="App-logo-container"><label></label></div>
+                        <img src={logo} className="App-logo" alt="logo" />
+                    
                     <div className="items">
                         {
                             navItems.map(this.renderItem)
