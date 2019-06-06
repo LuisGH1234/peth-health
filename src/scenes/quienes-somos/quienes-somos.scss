@@ -5,10 +5,12 @@
         .main-title {
             padding: 1.9% 1.4%;
             margin: 0;
-            font-size: 250%;
+            // font-size: 250%;
+            font: 250% 'Stint Ultra Condensed';
+            text-transform: uppercase;
         }
         .m-border {
-            margin: 3% 3%;
+            margin: 2% 3%;
         }
         &.row-1 {
             .who-we-are {
@@ -16,12 +18,17 @@
                     margin: 0;
                 }
                 p {
-                    text-align: justify;
+                    text-align: center;
+                    font: inherit;
+                    font-family: cursive;
+                    font-size: 1.1em;
+                    margin-bottom: 10px;
                 }
             }
         }
 
         &.row-2 {
+            margin: 60px;
             .registration {
                 & > * {
                     margin: 5%;

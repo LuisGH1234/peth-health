@@ -3,15 +3,19 @@ import { textQuienesSomos } from '../../commons';
 import './quienes-somos.scss';
 
 class QuienesSomos extends Component {
+    renderSentences(sentence: string, index: number) {
+        return (<p key={index}>{sentence}</p>);
+    }
+
     render() {
         return (
             <div className="quienes-somos-content">
                 <div className="content row-1">
                     <h1 className="main-title">QUIENES SOMOS</h1>
                     <div className="who-we-are m-border">
-                        <p>
-                            {textQuienesSomos}
-                        </p>
+                        {
+                            textQuienesSomos.map(this.renderSentences)
+                        }
                     </div>
                 </div>
                 <div className="content row-2">

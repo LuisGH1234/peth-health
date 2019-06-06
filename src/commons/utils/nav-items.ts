@@ -17,7 +17,7 @@ export const navItems: Array<INavItems> = [
     }, 
     {
         text: 'Nuestros Mienbros',
-        path: '#member-page',
+        path: '#members-page',
         className: 'btn-nav',
     },
 ];
