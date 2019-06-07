@@ -1,4 +1,5 @@
 #root {
+  font: Oswald;
   overflow: hidden;
   background: url('./assets/mascotas-sura.jpg') no-repeat;
   background-position: center top;
@@ -70,9 +71,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('./assets/Roboto-Black.ttf');
 }

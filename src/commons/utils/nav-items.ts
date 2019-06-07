@@ -16,7 +16,7 @@ export const navItems: Array<INavItems> = [
         className: 'btn-nav',
     }, 
     {
-        text: 'Nuestros Mienbros',
+        text: 'Nuestros Miembros',
         path: '#members-page',
         className: 'btn-nav',
     },

@@ -29,18 +29,18 @@ html {
             .item {
                 display: inline-block;
                 margin: 0 $margin-item;
-                color: #9d9d9d;
+                color: white;
 
                 &:first-child {
                     margin-left: $margin-item * 2;
                 }
 
                 & > * {
-                    color: #9d9d9d;
-                    font: 23px 'Stint Ultra Condensed';
-
+                    color: white;
+                    font: 25px Oswald;
+                    text-decoration: none;
                     &:hover {
-                        color: #dac6c6;
+                        color: #6DB7E8;
                     }
 
                     // @media (max-width: 800px) {

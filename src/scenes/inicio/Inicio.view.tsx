@@ -18,9 +18,13 @@ class Inicio extends Component {
         return (
             <div className="inicio-page-content">
                 <Gallery className="gallery-container">
-                    <img src={`${process.env.PUBLIC_URL}/assets/image2.jpeg`} alt="error" />
-                    <img src={`${process.env.PUBLIC_URL}/assets/image1.png`} alt="error" />
-                    <img src={`${process.env.PUBLIC_URL}/assets/image3.jpeg`} alt="error" />
+                    <img src={`${process.env.PUBLIC_URL}/assets/image2.png`} alt="error" />
+                    <img src={`${process.env.PUBLIC_URL}/assets/image3.png`} alt="error" />
+                    <img src={`${process.env.PUBLIC_URL}/assets/image4.png`} alt="error" />
+                    <img src={`${process.env.PUBLIC_URL}/assets/image6.png`} alt="error" />
+                    <img src={`${process.env.PUBLIC_URL}/assets/image7.png`} alt="error" />
+                    <img src={`${process.env.PUBLIC_URL}/assets/image5.png`} alt="error" />
+
                 </Gallery>
                 <div className="summary-content">
                     <div className="band">

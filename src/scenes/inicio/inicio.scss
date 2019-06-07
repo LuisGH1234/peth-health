@@ -7,13 +7,17 @@
         // @media (max-height: 675px) {
         //     font-size: 4vw;
         // }
+        & > strong{
+        font-size: 30px;
     }
+    }
+    
 }
 
 .text-content {
     .title {
         margin: 0 4%;
-        font-size: 1.68em;
+        font-size: 2.8em;
         text-align: left;
         padding-left: 2%;
         // font-family: Roboto;
@@ -47,8 +51,8 @@
     display: flex;
     padding: 3%;
     .carousel.slide {
-        height: 45vh;
-        max-height: 45vh;
+        height: 60vh;
+        // max-height: 45vh;
     }
 
     .gallery-container {

@@ -7,12 +7,12 @@
             padding: 1.9% 1.4%;
             margin: 0;
             // font-size: 7.5vw;
-            font-size: 350%;
-            font-family: Roboto ;
+            font-size: 530%;
+            font-family: Oswald;
         }
         .sub-content {
             // height: 100vh;
-            &::before {
+            &:first-child::before {
                 height: var(--nav-height);
                 width: 100%;
                 display: inline-block ;
@@ -24,7 +24,7 @@
             }
 
             &:nth-child(2) {
-                background-color: azure;
+                background-color: #6DB7E8;
             }
 
             &:nth-child(3) {
