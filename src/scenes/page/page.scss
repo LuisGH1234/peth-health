@@ -8,6 +8,7 @@
             margin: 0;
             // font-size: 7.5vw;
             font-size: 350%;
+            font-family: Roboto ;
         }
         .sub-content {
             // height: 100vh;
@@ -16,6 +17,18 @@
                 width: 100%;
                 display: block;
                 content: '';
+            }
+
+            &:first-child {
+                background-color: hsla(192,192,192,0.6);
+            }
+
+            &:nth-child(2) {
+                background-color: azure;
+            }
+
+            &:nth-child(3) {
+                background-color: beige;
             }
         }
     }

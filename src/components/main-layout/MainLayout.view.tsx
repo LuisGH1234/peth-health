@@ -12,7 +12,9 @@ class MainLayout extends Component<IProps> {
             <>
                 <header><NavHeader /></header>
                 {this.props.children}
-                <footer>Powered By: PethHealth</footer>
+                <footer>
+                    2019 For: PetHealth & Developed by <strong>Luis Alejandro Galindo Honores</strong> 
+                </footer>
             </>
         );
     }

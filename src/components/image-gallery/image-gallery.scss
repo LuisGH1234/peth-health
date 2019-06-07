@@ -5,7 +5,12 @@ $secondary-height: 400px;
 .carousel {
     &.slide {
         & > a {
-            background-color: #cccccc;
+            & > span {
+                background-color: #cccccc;
+                border-radius: 20px;
+                width: 30px;
+                height: 30px;
+            }
         }
     }
 }
