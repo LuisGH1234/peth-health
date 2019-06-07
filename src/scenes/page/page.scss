@@ -15,7 +15,7 @@
             &::before {
                 height: var(--nav-height);
                 width: 100%;
-                display: block;
+                display: inline-block ;
                 content: '';
             }
 

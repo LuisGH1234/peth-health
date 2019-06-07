@@ -58,13 +58,14 @@
 
     .summary-content {
         width: 50%;
-        max-height: 45vh;
+        // max-height: 45vh;
     }
 
     @media (max-width: 686px) {
         display: block;
         padding-left: 0;
         padding-right: 0;
+        // padding-bottom: 40px;
 
         .gallery-container, .summary-content {
             width: 100%;
@@ -73,6 +74,10 @@
         .summary-content {
             margin-top: 2%;
         }
+    }
+
+    @media (max-height: 590px) {
+        display: inline-block;
     }
 }
 

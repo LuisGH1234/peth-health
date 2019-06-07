@@ -38,3 +38,22 @@
         }
     }
 }
+
+#input-name, #input-email {
+    margin: 5% 0;
+}
+
+#message-box {
+    display: none;
+    margin: 5% 0;
+
+    &.show-me {
+        display: block;
+    }
+}
+
+#btn-registration:target {
+    #message-box {
+        display: inline;
+    }
+}

@@ -2,10 +2,13 @@ body {
   background: url('./assets/mascotas-sura.jpg') no-repeat;
   background-position: center top;
   background-attachment: fixed;
+  background-size: cover;
+  
 }
 
 .App {
   text-align: center;
+  overflow: hidden;
 }
 
 .App-logo {
