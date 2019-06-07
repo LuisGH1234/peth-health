@@ -1,6 +1,8 @@
 export const benefits = [
-    "Reservas en linea",
-    "Notificaciones y Recordatorios",
-    "Control clinico de tu mascotas",
-    "Noticias"
+    "Recordatorios de las citas de tus mascotas",
+    "Comunicación con tu veterinario",
+    "Control clinico de tu mascota",
+    "Localización de veterinarias cercanas a ti",
+    "Noticias para los amantes de animales",
+    "Apoyo a los dueños de animales perdidos"
 ];
