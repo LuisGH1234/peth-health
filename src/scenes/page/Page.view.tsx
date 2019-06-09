@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Inicio, QuienesSomos, Members } from '../';
+import { Inicio, QuienesSomos } from '../';
 
 import './page.scss';
 
@@ -14,10 +14,7 @@ class Page extends Component {
                     </div>
                     <div className="sub-content" id="aboutus-page">
                         <QuienesSomos />
-                    </div>
-                    <div className="sub-content" id="members-page">
-                        <Members />
-                    </div>
+                    </div>                    
                 </div>
             </div>
         );

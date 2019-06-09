@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Input, Alert } from 'reactstrap';
+import { Button, Input, Alert,Container,Row,Col } from 'reactstrap';
 import { textQuienesSomos } from '../../commons';
 import './quienes-somos.scss';
 
@@ -44,6 +44,53 @@ class QuienesSomos extends Component<any, IState> {
                             ¡Gracias por seguirnos!
                         </Alert>
                     </div>
+                </div>
+                <div className="content row-3">
+                    <h1 className="main-title">QUIENES SOMOS</h1>
+                    <Container className="container-images">
+                        <Row>
+                         <Col>
+                            <div>
+                                <img className="content image" src={`${process.env.PUBLIC_URL}/assets/default-user.png`} alt="error" />
+                            </div><br></br>
+                            <div>
+                                <label className="names">Mauricio Rivas</label>
+                            </div>
+                          </Col>
+                          <Col>
+                            <div>
+                                <img className="content image" src={`${process.env.PUBLIC_URL}/assets/default-user.png`} alt="error" />
+                            </div><br></br>
+                            <div>
+                                <label className="names">Luis Galindo</label>
+                            </div>
+                          </Col>
+                          <Col>
+                            <div>
+                                <img className="content image" src={`${process.env.PUBLIC_URL}/assets/default-user.png`} alt="error" />
+                            </div><br></br>
+                            <div>
+                                <label className="names">Sarita Rojas</label>
+                            </div>
+                          </Col>
+                          <Col>
+                            <div>
+                                <img className="content image" src={`${process.env.PUBLIC_URL}/assets/default-user.png`} alt="error" />
+                            </div><br></br>
+                            <div>
+                                <label className="names">Omar Troncos</label>
+                            </div>
+                          </Col>
+                          <Col>
+                            <div>
+                                <img className="content image" src={`${process.env.PUBLIC_URL}/assets/default-user.png`} alt="error" />
+                            </div><br></br>
+                            <div>
+                                <label className="names">Kristel Collazos</label>
+                            </div>
+                          </Col>
+                         </Row>
+                    </Container>                   
                 </div>
             </div>
         );
